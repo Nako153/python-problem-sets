@@ -1,0 +1,14 @@
+def main():
+    text = input("Input:")
+    print("Output:", shorten(text))
+
+
+def shorten(word):
+    vowels = "aeiouAEIOU"
+    result = ""
+
+    for char in word:
+        if char not in vowels:
+            result += char
+    return result
+main()
