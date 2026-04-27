@@ -7,7 +7,7 @@ def main():
     figlet = Figlet()
     fonts = figlet.getFonts()
 
-    # არგუმენტების შემოწმება
+    
     if len(sys.argv) == 1:
         font = random.choice(fonts)
 
